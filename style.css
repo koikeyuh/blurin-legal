@@ -1,0 +1,212 @@
+/* Blurin Legal Documents - Stylesheet */
+
+body {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.7;
+  color: #333;
+  background: #fff;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #1a1a1a;
+    color: #e0e0e0;
+  }
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: 700;
+  color: #000;
+  border-bottom: 2px solid #007aff;
+  padding-bottom: 16px;
+  margin-top: 0;
+  margin-bottom: 32px;
+}
+
+@media (prefers-color-scheme: dark) {
+  h1 {
+    color: #fff;
+    border-bottom-color: #0a84ff;
+  }
+}
+
+h2 {
+  font-size: 1.8em;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-top: 48px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 8px;
+}
+
+@media (prefers-color-scheme: dark) {
+  h2 {
+    color: #f0f0f0;
+    border-bottom-color: #333;
+  }
+}
+
+h3 {
+  font-size: 1.4em;
+  font-weight: 600;
+  color: #333;
+  margin-top: 32px;
+  margin-bottom: 12px;
+}
+
+@media (prefers-color-scheme: dark) {
+  h3 {
+    color: #e0e0e0;
+  }
+}
+
+p {
+  margin: 16px 0;
+}
+
+ul, ol {
+  margin: 16px 0;
+  padding-left: 32px;
+}
+
+li {
+  margin: 8px 0;
+}
+
+strong {
+  font-weight: 600;
+  color: #000;
+}
+
+@media (prefers-color-scheme: dark) {
+  strong {
+    color: #fff;
+  }
+}
+
+code {
+  background: #f5f5f5;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: "SF Mono", Monaco, Consolas, monospace;
+  font-size: 0.9em;
+  color: #d73a49;
+}
+
+@media (prefers-color-scheme: dark) {
+  code {
+    background: #2d2d2d;
+    color: #ff6b9d;
+  }
+}
+
+a {
+  color: #007aff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media (prefers-color-scheme: dark) {
+  a {
+    color: #0a84ff;
+  }
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #e0e0e0;
+  margin: 32px 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  hr {
+    border-top-color: #333;
+  }
+}
+
+blockquote {
+  border-left: 4px solid #007aff;
+  padding-left: 16px;
+  margin: 16px 0;
+  color: #666;
+  font-style: italic;
+}
+
+@media (prefers-color-scheme: dark) {
+  blockquote {
+    border-left-color: #0a84ff;
+    color: #999;
+  }
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 24px 0;
+}
+
+th, td {
+  border: 1px solid #e0e0e0;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background: #f5f5f5;
+  font-weight: 600;
+}
+
+@media (prefers-color-scheme: dark) {
+  th, td {
+    border-color: #333;
+  }
+
+  th {
+    background: #2d2d2d;
+  }
+}
+
+/* Footer */
+.footer {
+  margin-top: 64px;
+  padding-top: 24px;
+  border-top: 1px solid #e0e0e0;
+  text-align: center;
+  color: #666;
+  font-size: 0.9em;
+}
+
+@media (prefers-color-scheme: dark) {
+  .footer {
+    border-top-color: #333;
+    color: #999;
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  body {
+    padding: 0 16px;
+    margin: 20px auto;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  h3 {
+    font-size: 1.2em;
+  }
+}

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blurin - Privacy-focused face masking app for iOS">
+    <title>Blurin - Legal Documents</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .hero {
+            text-align: center;
+            padding: 60px 0 40px;
+        }
+
+        .app-icon {
+            width: 120px;
+            height: 120px;
+            border-radius: 26.67%;
+            margin-bottom: 24px;
+            background: linear-gradient(135deg, #007aff 0%, #0051d5 100%);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 64px;
+            color: white;
+        }
+
+        .tagline {
+            font-size: 1.2em;
+            color: #666;
+            margin-bottom: 48px;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .tagline {
+                color: #999;
+            }
+        }
+
+        .doc-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 24px;
+            margin: 48px 0;
+        }
+
+        .doc-card {
+            background: #f9f9f9;
+            border: 1px solid #e0e0e0;
+            border-radius: 12px;
+            padding: 24px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .doc-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .doc-card {
+                background: #2d2d2d;
+                border-color: #404040;
+            }
+
+            .doc-card:hover {
+                box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+            }
+        }
+
+        .doc-card h3 {
+            margin-top: 0;
+            font-size: 1.3em;
+        }
+
+        .doc-card ul {
+            list-style: none;
+            padding: 0;
+            margin: 16px 0 0 0;
+        }
+
+        .doc-card li {
+            margin: 12px 0;
+        }
+
+        .doc-card a {
+            display: inline-block;
+            padding: 8px 16px;
+            background: #007aff;
+            color: white;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: background 0.2s;
+        }
+
+        .doc-card a:hover {
+            background: #0051d5;
+            text-decoration: none;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .doc-card a {
+                background: #0a84ff;
+            }
+
+            .doc-card a:hover {
+                background: #007aff;
+            }
+        }
+
+        .lang-badge {
+            display: inline-block;
+            padding: 2px 8px;
+            background: #e0e0e0;
+            color: #666;
+            border-radius: 4px;
+            font-size: 0.8em;
+            margin-left: 8px;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .lang-badge {
+                background: #404040;
+                color: #999;
+            }
+        }
+
+        .contact {
+            margin-top: 64px;
+            padding: 32px;
+            background: #f5f5f5;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .contact {
+                background: #2d2d2d;
+            }
+        }
+
+        .contact h2 {
+            margin-top: 0;
+            border: none;
+        }
+
+        .footer {
+            margin-top: 64px;
+            padding-top: 24px;
+            border-top: 1px solid #e0e0e0;
+            text-align: center;
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .footer {
+                border-top-color: #333;
+                color: #999;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <div class="app-icon">🎭</div>
+        <h1>Blurin</h1>
+        <p class="tagline">Privacy-focused face masking for iOS</p>
+    </div>
+
+    <div class="doc-grid">
+        <div class="doc-card">
+            <h3>📄 Privacy Policy</h3>
+            <p>How we handle your data (spoiler: we don't collect any!)</p>
+            <ul>
+                <li><a href="privacy-policy.html">English</a></li>
+                <li><a href="privacy-policy-ja.html">日本語</a></li>
+            </ul>
+        </div>
+
+        <div class="doc-card">
+            <h3>📋 Terms of Use</h3>
+            <p>Legal agreement between you and the developer</p>
+            <ul>
+                <li><a href="terms-of-use.html">English</a></li>
+                <li><a href="terms-of-use-ja.html">日本語</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="contact">
+        <h2>Contact</h2>
+        <p><strong>Developer:</strong> Yuhei Koike</p>
+        <p><strong>Email:</strong> <a href="mailto:blurin.support@icloud.com">blurin.support@icloud.com</a></p>
+        <p><strong>App Store:</strong> Coming soon</p>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2025 Yuhei Koike. All rights reserved.</p>
+        <p>Last updated: November 19, 2025</p>
+    </div>
+</body>
+</html>
